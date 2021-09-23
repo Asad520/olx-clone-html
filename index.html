@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap 5 -->
+
+    <!-- Local stylesheets -->
+    <link rel="stylesheet" href="/styles/home-styles.css" />
+    <!-- Local stylesheets -->
+    <title>
+      OLX - Buy and Sell for free anywhere in Pakistan with OLX online
+      classifieds
+    </title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="sticky-top">
+      <div class="container">
+        <!-- olx logo -->
+        <img src="/assets/logo.svg" alt="olx logo" />
+        <!-- olx logo -->
+
+        <!-- location search -->
+        <section class="dropdown">
+          <a
+            class="location-search"
+            href="#"
+            id="navbarDropdown"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <svg width="25" height="25" viewBox="0 0 1024 1024">
+              <path
+                d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
+              ></path>
+            </svg>
+            <input
+              class="search"
+              type="text"
+              value="Pakistan"
+              placeholder="Search city, area or locality"
+            />
+            <img
+              src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+            />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="current-location-container">
+              <a class="current-location" href="#">
+                <img
+                  src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
+                />
+                <div class="current-location-text">Use current location</div>
+              </a>
+            </div>
+            <hr class="dropdown-divider" />
+            <div class="region-container">
+              <span class="region-text">CHOOSE REGION</span>
+            </div>
+            <ul class="locations-list">
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text">
+                    Azad Kashmir, Pakistan
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text">
+                    Balochistan, Pakistan
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text">
+                    Islamabad Capital Territory, Pakistan
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text">
+                    Khyber Pakhtunkhwa, Pakistan
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text">
+                    Northern Areas, Pakistan
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text"> Punjab Pakistan </span>
+                </a>
+              </li>
+              <li>
+                <a class="location-item" href="#">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                  />
+                  <span class="location-item-text"> Sindh, Pakistan </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- location search -->
+
+        <!-- item search -->
+        <section class="search-container">
+          <input
+            type="text"
+            placeholder="Find Cars, Mobile Phones and more..."
+          />
+
+          <a class="search-btn" href="search.html">
+            <svg width="25" height="25" viewBox="0 0 1024 1024" fill="white">
+              <path
+                d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
+              ></path>
+            </svg>
+          </a>
+        </section>
+        <!-- item search -->
+
+        <!-- Login Button -->
+        <section>
+          <button
+            class="login-btn"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#login-modal"
+          >
+            Login
+          </button>
+        </section>
+        <!-- Login Button -->
+
+        <!-- Sell -->
+        <section class="sell-btn">
+          <a href="#">
+            <img src="/assets/sell.png" class="sell-img" />
+          </a>
+        </section>
+        <!-- Sell -->
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Main content -->
+    <main class="content-wrapper">
+      <!-- Navigation -->
+      <section class="navigation">
+        <div class="container">
+          <div class="categories-bar">
+            <div class="dropdown position-static">
+              <a id="all-categories-btn" data-bs-toggle="dropdown" href="#">
+                <div>ALL CATEGORIES</div>
+                <img
+                  src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+                  class="ms-1"
+                />
+              </a>
+              <div
+                class="dropdown-menu categories-dropdown"
+                aria-labelledby="dropdownMenuLink"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <section class="main-category">Category</section>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                    <div class="main-category">Category</div>
+                    <ul>
+                      <li>
+                        <a href="#" class="list-items">Action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">Another action</a>
+                      </li>
+                      <li>
+                        <a href="#" class="list-items">And Another action</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="nav-item">Mobile Phones</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">Cars</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">Motorcycles</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">Houses</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">TV - Video - Audio</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">Tablets</a>
+              </li>
+              <li>
+                <a href="#" class="nav-item">Land & Plots</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Navigation -->
+
+      <!-- Banner -->
+      <section>
+        <img
+          src="https://www.olx.com.pk/assets/wallpaper.6416002a042322099dbfec286d7574f4.jpg"
+          class="banner"
+        />
+      </section>
+      <!-- Banner -->
+
+      <section class="ads">
+        <div class="container">
+          <h5 class="mt-4">Fresh recommendations</h5>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="featured">
+                      <span class="featured-text">FEATURED</span>
+                    </div>
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        alt=""
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="featured-card-bottom">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="featured">
+                      <span class="featured-text">FEATURED</span>
+                    </div>
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        alt=""
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="featured-card-bottom">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="featured">
+                      <span class="featured-text">FEATURED</span>
+                    </div>
+                    <div class="card-image-container">
+                      <picture>
+                        <noscript>
+                          <source type="image/webp"
+                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          /> <img role="presentation"
+                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
+                          alt=Husky puppies title=Husky puppies
+                          aria-label="Fallback listing photo" />
+                        </noscript>
+                        <source
+                          type="image/webp"
+                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
+                          srcset="
+                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
+                          "
+                        />
+                        <img
+                          role="presentation"
+                          alt="Husky puppies"
+                          title="Husky puppies"
+                          aria-label="Cover photo"
+                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          class="card-img lazy loaded"
+                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                          data-was-processed="true"
+                        />
+                      </picture>
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        alt=""
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="featured-card-bottom">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Adds -->
+
+      <!-- Banner Bottom -->
+      <section class="bottom-banner">
+        <picture
+          ><source
+            srcset="
+              https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp
+            "
+            type="image/webp" />
+          <source
+            srcset="
+              https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp
+            "
+            type="image/jpg" />
+          <img
+            class="bottom-banner-img"
+            src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp"
+            alt="OLX mobile app"
+        /></picture>
+        <div class="bottom-banner-descr">
+          <div class="bottom-banner-heading">Try the OLX app</div>
+          <div class="bottom-banner-text">
+            Buy, sell and find just about anything
+            <br />
+            using the app on your mobile.
+          </div>
+        </div>
+
+        <div class="banner-social-container">
+          <div class="get-app-text">GET YOUR APP TODAY</div>
+          <div class="banner-social-images">
+            <a href="#">
+              <img
+                src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                class="banner-store-img"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                class="banner-store-img"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Banner Bottom -->
+    </main>
+    <!-- Main content -->
+
+    <!-- footer -->
+    <footer>
+      <section class="footer-section">
+        <div class="container footer-container">
+          <div class="footer-categories">
+            <span class="footer-heading">POPULAR CATEGORIES</span>
+            <a href="#" class="footer-category">Cars</a>
+            <a href="#" class="footer-category">Flats for rent</a>
+            <a href="#" class="footer-category">Mobile Phones</a>
+            <a href="#" class="footer-category">jobs</a>
+          </div>
+          <div class="footer-categories">
+            <span class="footer-heading">TRENDING SEARCHES</span>
+            <a href="#" class="footer-category">Bikes</a>
+            <a href="#" class="footer-category">Watches</a>
+            <a href="#" class="footer-category">Books</a>
+            <a href="#" class="footer-category">Dogs</a>
+          </div>
+          <div class="footer-categories">
+            <span class="footer-heading">ABOUT US</span>
+            <a href="#" class="footer-category">About EMPG</a>
+            <a href="#" class="footer-category">OLX Blog</a>
+            <a href="#" class="footer-category">Contact us</a>
+            <a href="#" class="footer-category">OLX for businesses</a>
+          </div>
+          <div class="footer-categories">
+            <span class="footer-heading">OLX</span>
+            <a href="#" class="footer-category">Help</a>
+            <a href="#" class="footer-category">Sitemap</a>
+            <a href="#" class="footer-category"
+              >Legacy and Privacy information</a
+            >
+          </div>
+          <div>
+            <span class="footer-heading">FOLLOW US</span>
+            <div class="social-media-container">
+              <div class="d-flex justify-content-between w-120">
+                <a href="#" class="footer-category">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
+                    alt="Facebook logo"
+                    width="24"
+                    height="24"
+                  />
+                </a>
+                <a href="#" class="footer-category">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
+                    alt="Twitter logo"
+                    width="24"
+                    height="24"
+                  />
+                </a>
+                <a href="#" class="footer-category"
+                  ><img
+                    src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
+                    alt="Youtube logo"
+                    width="24"
+                    height="24"
+                /></a>
+                <a href="#" class="footer-category"
+                  ><img
+                    src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
+                    alt="Instagram logo"
+                    width="24"
+                    height="24"
+                /></a>
+              </div>
+              <div class="store-container">
+                <a href="">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                    alt="Appstore logo"
+                    width="84"
+                    height="28"
+                  />
+                </a>
+                <a href="">
+                  <img
+                    src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                    alt="Playstore logo"
+                    width="84"
+                    height="28"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="copyright-container">
+        <span class="footer-copyright">
+          Free Classifieds in Pakistan &nbsp; &nbsp;</span
+        >
+        . © 2006-2021 OLX
+      </div>
+      <!-- Copyright -->
+      <!-- Footer -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Login Modal -->
+    <div
+      class="modal fade"
+      id="login-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close modal-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <div class="modal-body">
+            <img
+              src="https://www.olx.com.pk/assets/iconOLXLogin_noinline.93e8a1a9cf50902ba5250814f57810ff.svg"
+              class="modal-img"
+            />
+            <span class="welcome-text">WELCOME TO OLX</span>
+            <span class="community-text"
+              >The trusted community of <br />
+              buyers and sellers.</span
+            >
+            <div class="modal-buttons">
+              <button class="modal-login-btn">
+                <img
+                  src="https://www.olx.com.pk/assets/iconGoogleLogin_noinline.633b1f5afb5219bedca01d2367642a28.svg"
+                  class="login-logo"
+                />
+                <span class="login-text">Continue with Google</span>
+              </button>
+              <button class="modal-login-btn">
+                <img
+                  src="https://www.olx.com.pk/assets/iconFacebookLogin_noinline.70f71af03bbf63ca01a044ff5c5eb342.svg"
+                  class="login-logo"
+                />
+                <span class="login-text">Continue with Facbook</span>
+              </button>
+
+              <button
+                class="modal-login-btn"
+                data-bs-target="#email-modal"
+                data-bs-toggle="modal"
+                data-bs-dismiss="modal"
+              >
+                <img
+                  src="https://www.olx.com.pk/assets/iconMailLogin_noinline.248b2cbda65d833f5f8f87f18a346cc9.svg"
+                  class="login-logo"
+                />
+                <span class="login-text">Continue with Email</span>
+              </button>
+              <button class="modal-login-btn">
+                <img
+                  src="https://www.olx.com.pk/assets/iconPhoneLogin_noinline.4dcd5ec6754daea7e5c3db60df33309c.svg"
+                  class="login-logo"
+                />
+                <span class="login-text">Continue with Phone</span>
+              </button>
+            </div>
+
+            <div class="login-terms">
+              <span class="terms-text"> By continuing, you are accepting </span>
+              <a href="#" class="terms-text"
+                >OLX Terms and Conditions and Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login Modal -->
+
+    <!-- Email Modal -->
+    <div
+      class="modal fade"
+      id="email-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button class="modal-back" data-bs-dismiss="modal" aria-label="Close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 1024 1024"
+              fill="rgba(0,47,52,.64)"
+            >
+              <path
+                d="M512 124.16v54.83L209.7 473.17l676.96.05L925.48 512l-38.82 38.78H209.75L512 845.01v54.87h-56.32L85.33 539.43v-54.86l370.35-360.4H512z"
+              ></path>
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="btn-close modal-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <div class="modal-body">
+            <img
+              src="https://www.olx.com.pk/assets/iconOLXLogin_noinline.93e8a1a9cf50902ba5250814f57810ff.svg"
+              class="email-modal-img"
+            />
+            <span class="modal-email-text"> Enter your email </span>
+            <input
+              id="email"
+              name="email"
+              spellcheck="false"
+              class="email-input"
+              autocomplete="email"
+              type="email"
+              placeholder="Email"
+              value=""
+            />
+            <button
+              class="modal-next-btn"
+              data-bs-target="#pwd-modal"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+            >
+              Next
+            </button>
+            <span class="reveal-text"
+              >We won't reveal your email to anyone else nor use it to send you
+              spam.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Email Modal -->
+
+    <!-- Password Modal -->
+    <div
+      class="modal fade"
+      id="pwd-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close modal-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <div class="modal-body">
+            <img
+              src="https://www.olx.com.pk/assets/iconOLXLogin_noinline.93e8a1a9cf50902ba5250814f57810ff.svg"
+              class="pwd-modal-img"
+            />
+            <span class="modal-email-text">
+              Create a password to login faster next time
+            </span>
+            <span class="create-pwd-text">
+              You are creating a password for
+              <strong>test@gmail.com</strong>
+              . This will help you login faster next time
+            </span>
+            <input
+              id="pwd"
+              name="pwd"
+              spellcheck="false"
+              class="pwd-input"
+              type="password"
+              placeholder="New Password"
+              value=""
+            />
+            <span class="pwd-instructions"
+              >Use minimum 6 characters, and at least one letter and one
+              number</span
+            >
+            <input
+              id="pwd"
+              name="pwd"
+              spellcheck="false"
+              class="pwd-input"
+              type="password"
+              placeholder="Confirm new Password"
+              value=""
+            />
+            <button class="create-pwd-btn">Create Password</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Password Modal -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

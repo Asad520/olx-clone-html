@@ -18,170 +18,192 @@
   <body>
     <!-- Search Bar -->
     <!-- Header -->
-    <header id="header" class="sticky-top">
-      <div class="container">
-        <!-- olx logo -->
-        <a href="/index.html">
-          <img src="/assets/logo.svg" alt="olx logo" />
-        </a>
-        <!-- olx logo -->
-
-        <!-- location search -->
-        <section class="dropdown">
-          <a
-            class="location-search"
-            href="#"
-            id="navbarDropdown"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <svg width="25" height="25" viewBox="0 0 1024 1024">
-              <path
-                d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
-              ></path>
-            </svg>
-            <input
-              class="search"
-              type="text"
-              value="Pakistan"
-              placeholder="Search city, area or locality"
-            />
-            <img
-              src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
-            />
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assets/logo.svg" alt="olx logo" />
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <div class="current-location-container">
-              <a class="current-location" href="#">
-                <img
-                  src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
-                />
-                <div class="current-location-text">Use current location</div>
-              </a>
-            </div>
-            <hr class="dropdown-divider" />
-            <div class="region-container">
-              <span class="region-text">CHOOSE REGION</span>
-            </div>
-            <ul class="locations-list">
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text">
-                    Azad Kashmir, Pakistan
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text">
-                    Balochistan, Pakistan
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text">
-                    Islamabad Capital Territory, Pakistan
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text">
-                    Khyber Pakhtunkhwa, Pakistan
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text">
-                    Northern Areas, Pakistan
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text"> Punjab Pakistan </span>
-                </a>
-              </li>
-              <li>
-                <a class="location-item" href="#">
-                  <img
-                    src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
-                  />
-                  <span class="location-item-text"> Sindh, Pakistan </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <!-- location search -->
-
-        <!-- item search -->
-        <section class="search-container">
-          <input
-            type="text"
-            placeholder="Find Cars, Mobile Phones and more..."
-          />
-
-          <a class="search-btn" href="search.html">
-            <svg width="25" height="25" viewBox="0 0 1024 1024" fill="white">
-              <path
-                d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
-              ></path>
-            </svg>
-          </a>
-        </section>
-        <!-- item search -->
-
-        <!-- Login Button -->
-        <section>
           <button
-            class="login-btn"
+            class="navbar-toggler"
             type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#login-modal"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            Login
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </section>
-        <!-- Login Button -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- location search -->
+            <section class="dropdown col-lg-3 col-md-12 border">
+              <a
+                class="location-search"
+                href="#"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <svg width="25" height="25" viewBox="0 0 1024 1024">
+                    <path
+                      d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
+                    ></path>
+                  </svg>
+                  <input
+                    class="search"
+                    type="text"
+                    value="Pakistan"
+                    placeholder="Search city, area or locality"
+                  />
+                </div>
+                <img
+                  src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ec05eae7013321c193965ef15d4e2174.svg"
+                />
+              </a>
 
-        <!-- Sell -->
-        <section class="sell-btn">
-          <a href="#">
-            <img src="/assets/sell.png" class="sell-img" />
-          </a>
-        </section>
-        <!-- Sell -->
-      </div>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="current-location-container">
+                  <a class="current-location" href="#">
+                    <img
+                      src="https://www.olx.com.pk/assets/iconCurrentLocation_noinline.6acc646ec0e4ecdee696b5588b92c859.svg"
+                    />
+                    <div class="current-location-text">
+                      Use current location
+                    </div>
+                  </a>
+                </div>
+                <hr class="dropdown-divider" />
+                <div class="region-container">
+                  <span class="region-text">CHOOSE REGION</span>
+                </div>
+                <ul class="locations-list">
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text">
+                        Azad Kashmir, Pakistan
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text">
+                        Balochistan, Pakistan
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text">
+                        Islamabad Capital Territory, Pakistan
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text">
+                        Khyber Pakhtunkhwa, Pakistan
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text">
+                        Northern Areas, Pakistan
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text"> Punjab Pakistan </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="location-item" href="#">
+                      <img
+                        src="https://www.olx.com.pk/assets/iconLocation_noinline.dd275c9d8c1ed5d1f8c45bd6859ca4df.svg"
+                      />
+                      <span class="location-item-text"> Sindh, Pakistan </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- location search -->
+
+            <!-- item search -->
+            <section class="search-container ms-lg-1 ms-0 my-lg-0 my-2 col">
+              <input
+                type="text"
+                placeholder="Find Cars, Mobile Phones and more..."
+              />
+
+              <a class="search-btn" href="search.html">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 1024 1024"
+                  fill="white"
+                >
+                  <path
+                    d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z"
+                  ></path>
+                </svg>
+              </a>
+            </section>
+            <!-- item search -->
+
+            <!-- Login Button -->
+            <section class="col-1 d-flex justify-content-center">
+              <button
+                class="login-btn"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#login-modal"
+              >
+                Login
+              </button>
+            </section>
+            <!-- Login Button -->
+
+            <!-- Sell -->
+            <section class="sell-btn my-sm-3 my-lg-0 col-2">
+              <a href="#">
+                <img src="/assets/sell.png" class="sell-img" />
+              </a>
+            </section>
+            <!-- Sell -->
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- Header -->
 
     <!-- Search Bar -->
     <main id="main">
-      <!-- Nav Bar -->
+      <!-- Navigation -->
       <section class="navigation">
         <div class="container">
-          <div class="categories-bar">
+          <div class="categories-bar d-flex flex-wrap">
             <div class="dropdown position-static">
               <a id="all-categories-btn" data-bs-toggle="dropdown" href="#">
                 <div>ALL CATEGORIES</div>
@@ -460,7 +482,7 @@
           </div>
         </div>
       </section>
-      <!-- Nav Bar -->
+      <!-- Navigation -->
 
       <!-- Breadcrumbs -->
       <section id="breadcrumbs">

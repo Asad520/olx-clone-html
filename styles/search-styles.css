@@ -4,12 +4,14 @@
 .popular-container {
   margin-top: 2%;
   display: flex;
+  flex-wrap: wrap;
   font-size: 14px;
   font-weight: bold;
 }
 
 .popular-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .popular-item {
@@ -72,6 +74,7 @@
 .view-text {
   font-weight: 700;
   font-size: 14px;
+  margin-left: 18%;
 }
 
 .active-layout-btn {
@@ -89,6 +92,7 @@
 
 .sort-menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sort {

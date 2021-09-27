@@ -1,3 +1,7 @@
+body {
+  margin-top: 70px;
+}
+
 #header {
   background-color: #f7f8f8;
 }
@@ -126,6 +130,12 @@ ul {
   cursor: pointer;
 }
 
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .login-btn {
   text-decoration: underline;
   background: none;
@@ -150,7 +160,10 @@ ul {
 }
 
 .categories-bar {
-  margin: 10px 0px 0px 5px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navigation {
@@ -200,6 +213,7 @@ ul {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -208,7 +222,8 @@ ul {
 
 .card-container {
   border: 0.1rem solid rgba(0, 47, 52, 0.2);
-  padding: 8px 12px 0px 12px;
+  padding: 10px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -219,13 +234,15 @@ ul {
 
 .card-img {
   object-fit: cover;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .heart-icon {
   position: absolute;
   width: 24px;
   height: 24px;
-  right: 2px;
+  right: 12px;
 }
 
 .price-text {
@@ -238,14 +255,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.card-text-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  line-height: 20px;
-  white-space: nowrap;
 }
 
 .add-text {
@@ -261,14 +270,6 @@ ul {
 .location-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 15%;
-  padding-bottom: 5px;
-}
-
-.featured-location-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15%;
   padding-bottom: 5px;
 }
 
@@ -280,19 +281,13 @@ ul {
 .card-text-container {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
   line-height: 20px;
   white-space: nowrap;
-}
-
-.featured-card-container {
-  border: 0.1rem solid rgba(0, 47, 52, 0.2);
-  padding: 8px 12px 0px 12px;
-  position: relative;
+  margin-bottom: 5px;
 }
 
 .featured-card-bottom {
-  border-left: 0.5rem solid #ffce32;
+  border-left: 0.4rem solid #ffce32;
   border-bottom-left-radius: 1px;
   margin-left: -13px;
   padding-left: 10px;
@@ -363,11 +358,6 @@ ul {
   height: 100px;
 }
 
-footer {
-  bottom: 0;
-  width: 100%;
-}
-
 .footer-section {
   background-color: #ebeeef;
   border-top: 1px solid rgba(0, 47, 52, 0.2);
@@ -400,7 +390,6 @@ footer {
   color: #fff;
   font-size: 0.8em;
   font-weight: 200;
-  position: relative;
 }
 
 .copyright-text {
@@ -416,13 +405,13 @@ footer {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0px 50px 0px;
+  padding: 20px;
 }
 
 .footer-categories {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 10px;
 }
 

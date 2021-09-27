@@ -14,7 +14,7 @@
     <!-- Bootsrap 5 -->
 
     <!-- Local stylesheets -->
-    <link rel="stylesheet" href="/styles/home-styles.css" />
+    <link rel="stylesheet" href="/assets/css/home-styles.css" />
     <!-- Local stylesheets -->
     <title>
       OLX - Buy and Sell for free anywhere in Pakistan with OLX online
@@ -23,11 +23,14 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="sticky-top">
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="/index.html">
-            <img src="/assets/logo.svg" alt="olx logo" />
+            <img
+              src="https://www.olx.com.pk/assets/logo_noinline.1cdf230e49c0530ad4b8d43e37ecc4a4.svg"
+              alt="olx logo"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -40,7 +43,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse nav-items"
+            id="navbarSupportedContent"
+          >
             <!-- location search -->
             <section class="dropdown col-lg-3 col-md-12 border">
               <a
@@ -177,26 +183,29 @@
             </section>
             <!-- item search -->
 
-            <!-- Login Button -->
-            <section class="col-1 d-flex justify-content-center">
-              <button
-                class="login-btn"
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#login-modal"
-              >
-                Login
-              </button>
-            </section>
-            <!-- Login Button -->
+            <section class="header-buttons col-lg-2">
+              <!-- Login Button -->
+              <section class="login">
+                <button
+                  class="login-btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#login-modal"
+                >
+                  Login
+                </button>
+              </section>
+              <!-- Login Button -->
 
-            <!-- Sell -->
-            <section class="sell-btn my-sm-3 my-lg-0 col-2">
-              <a href="#">
-                <img src="/assets/sell.png" class="sell-img" />
-              </a>
+              <!-- Sell Button -->
+              <section class="sell-btn">
+                <a href="#">
+                  <img src="/assets/images/sell.png" class="sell-img" />
+                </a>
+              </section>
+              <!-- Sell Button-->
             </section>
-            <!-- Sell -->
+            <!-- Header Buttons -->
           </div>
         </div>
       </nav>
@@ -208,14 +217,7 @@
       <!-- Navigation -->
       <section class="navigation">
         <div class="container">
-          <div
-            class="
-              categories-bar
-              d-flex
-              flex-wrap
-              justify-content-lg-start justify-content-center
-            "
-          >
+          <div class="categories-bar justify-content-lg-start">
             <div class="dropdown position-static">
               <a id="all-categories-btn" data-bs-toggle="dropdown" href="#">
                 <div>ALL CATEGORIES</div>
@@ -497,7 +499,7 @@
       <!-- Navigation -->
 
       <!-- Banner -->
-      <section>
+      <section class="banner-img">
         <img
           src="https://www.olx.com.pk/assets/wallpaper.6416002a042322099dbfec286d7574f4.jpg"
           class="banner"
@@ -507,40 +509,22 @@
 
       <section class="ads">
         <div class="container">
-          <h5 class="mt-4">Fresh recommendations</h5>
+          <h5>Fresh recommendations</h5>
           <div class="row">
             <div class="col-md-3">
               <div class="card">
                 <a href="/product.html">
                   <div class="card-container">
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                      />
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         class="heart-icon"
@@ -549,7 +533,7 @@
                     <div class="card-info-container">
                       <div class="card-text-container">
                         <span class="price-text"> RS 110,000 </span>
-                        <p class="add-desc">Husky puppies</p>
+                        <p class="add-desc">Husky puppies lo</p>
                       </div>
                       <div class="location-container">
                         <span class="location-text"> BAHRIA TOWN, LAHORE</span>
@@ -559,37 +543,21 @@
                   </div>
                 </a>
               </div>
+            </div>
+            <div class="col-md-3">
               <div class="card">
                 <a href="/product.html">
                   <div class="card-container">
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                      />
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         class="heart-icon"
@@ -617,33 +585,17 @@
                       <span class="featured-text">FEATURED</span>
                     </div>
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        data-was-processed="true"
+                      />
+
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         alt=""
@@ -663,137 +615,21 @@
                   </div>
                 </a>
               </div>
-              <div class="card">
-                <a href="/product.html">
-                  <div class="card-container">
-                    <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
-                      <img
-                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        class="heart-icon"
-                      />
-                    </div>
-                    <div class="card-info-container">
-                      <div class="card-text-container">
-                        <span class="price-text"> RS 110,000 </span>
-                        <p class="add-desc">Husky puppies</p>
-                      </div>
-                      <div class="location-container">
-                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
-                        <span class="location-text">1 WEEK AGO</span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
             </div>
             <div class="col-md-3">
               <div class="card">
                 <a href="/product.html">
                   <div class="card-container">
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
                       <img
-                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
-                        class="heart-icon"
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
                       />
-                    </div>
-                    <div class="card-info-container">
-                      <div class="card-text-container">
-                        <span class="price-text"> RS 110,000 </span>
-                        <p class="add-desc">Husky puppies</p>
-                      </div>
-                      <div class="location-container">
-                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
-                        <span class="location-text">1 WEEK AGO</span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="card">
-                <a href="/product.html">
-                  <div class="card-container">
-                    <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         class="heart-icon"
@@ -821,33 +657,17 @@
                       <span class="featured-text">FEATURED</span>
                     </div>
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        data-was-processed="true"
+                      />
+
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         alt=""
@@ -867,6 +687,74 @@
                   </div>
                 </a>
               </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                      />
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <a href="/product.html">
+                  <div class="card-container">
+                    <div class="card-image-container">
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                      />
+                      <img
+                        src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
+                        class="heart-icon"
+                      />
+                    </div>
+                    <div class="card-info-container">
+                      <div class="card-text-container">
+                        <span class="price-text"> RS 110,000 </span>
+                        <p class="add-desc">Husky puppies</p>
+                      </div>
+                      <div class="location-container">
+                        <span class="location-text"> BAHRIA TOWN, LAHORE</span>
+                        <span class="location-text">1 WEEK AGO</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
               <div class="card">
                 <a href="/product.html">
                   <div class="card-container">
@@ -874,33 +762,17 @@
                       <span class="featured-text">FEATURED</span>
                     </div>
                     <div class="card-image-container">
-                      <picture>
-                        <noscript>
-                          <source type="image/webp"
-                          srcSet=https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          /> <img role="presentation"
-                          src=https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg
-                          alt=Husky puppies title=Husky puppies
-                          aria-label="Fallback listing photo" />
-                        </noscript>
-                        <source
-                          type="image/webp"
-                          data-srcset="https://images.olx.com.pk/thumbnails/182804345-240x180.webp"
-                          srcset="
-                            https://images.olx.com.pk/thumbnails/182804345-240x180.webp
-                          "
-                        />
-                        <img
-                          role="presentation"
-                          alt="Husky puppies"
-                          title="Husky puppies"
-                          aria-label="Cover photo"
-                          data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          class="card-img lazy loaded"
-                          src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
-                          data-was-processed="true"
-                        />
-                      </picture>
+                      <img
+                        role="presentation"
+                        alt="Husky puppies"
+                        title="Husky puppies"
+                        aria-label="Cover photo"
+                        data-src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        class="card-img lazy loaded"
+                        src="https://images.olx.com.pk/thumbnails/182804345-240x180.jpeg"
+                        data-was-processed="true"
+                      />
+
                       <img
                         src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                         alt=""

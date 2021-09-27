@@ -14,19 +14,22 @@
     <!-- Bootsrap 5 -->
 
     <!-- Local stylesheets -->
-    <link rel="stylesheet" href="/styles/home-styles.css" />
-    <link rel="stylesheet" href="/styles/product-styles.css" />
-    <link rel="stylesheet" href="/styles/search-styles.css" />
+    <link rel="stylesheet" href="assets/css/home-styles.css" />
+    <link rel="stylesheet" href="/assets/css/product-styles.css" />
+    <link rel="stylesheet" href="/assets/css/search-styles.css" />
     <!-- Local stylesheets -->
     <title>Search</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="sticky-top">
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="/index.html">
-            <img src="/assets/logo.svg" alt="olx logo" />
+            <img
+              src="https://www.olx.com.pk/assets/logo_noinline.1cdf230e49c0530ad4b8d43e37ecc4a4.svg"
+              alt="olx logo"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -39,7 +42,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse nav-items"
+            id="navbarSupportedContent"
+          >
             <!-- location search -->
             <section class="dropdown col-lg-3 col-md-12 border">
               <a
@@ -176,26 +182,29 @@
             </section>
             <!-- item search -->
 
-            <!-- Login Button -->
-            <section class="col-1 d-flex justify-content-center">
-              <button
-                class="login-btn"
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#login-modal"
-              >
-                Login
-              </button>
-            </section>
-            <!-- Login Button -->
+            <section class="header-buttons col-lg-2">
+              <!-- Login Button -->
+              <section class="login">
+                <button
+                  class="login-btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#login-modal"
+                >
+                  Login
+                </button>
+              </section>
+              <!-- Login Button -->
 
-            <!-- Sell -->
-            <section class="sell-btn my-sm-3 my-lg-0 col-2">
-              <a href="#">
-                <img src="/assets/sell.png" class="sell-img" />
-              </a>
+              <!-- Sell Button -->
+              <section class="sell-btn">
+                <a href="#">
+                  <img src="/assets/images/sell.png" class="sell-img" />
+                </a>
+              </section>
+              <!-- Sell Button-->
             </section>
-            <!-- Sell -->
+            <!-- Header Buttons -->
           </div>
         </div>
       </nav>
@@ -207,14 +216,7 @@
       <!-- Navigation -->
       <section class="navigation">
         <div class="container">
-          <div
-            class="
-              categories-bar
-              d-flex
-              flex-wrap
-              justify-content-lg-start justify-content-center
-            "
-          >
+          <div class="categories-bar justify-content-lg-start">
             <div class="dropdown position-static">
               <a id="all-categories-btn" data-bs-toggle="dropdown" href="#">
                 <div>ALL CATEGORIES</div>
@@ -542,14 +544,7 @@
 
       <!-- Breadcrumbs -->
       <section id="breadcrumbs">
-        <ul
-          class="
-            d-flex
-            container
-            justify-content-lg-start justify-content-center
-            mt-2
-          "
-        >
+        <ul class="container justify-content-lg-start breadcrumbs-container">
           <li>
             <a href="#" class="breadcrumb-item">Home</a>
           </li>
@@ -887,34 +882,18 @@
 
             <!-- Ads -->
             <section class="cards">
-              <a href="#" class="list-card-container">
+              <a href="#" class="list-card">
                 <div class="list-img-container">
-                  <picture class="list-picture"
-                    ><noscript>
-                      <source type="image/webp"
-                      srcSet=https://images.olx.com.pk/thumbnails/188873184-240x180.webp
-                      /> <img role="presentation"
-                      src=https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg
-                      class="list-img" aria-label="Fallback listing photo" />
-                    </noscript>
-                    <source
-                      type="image/webp"
-                      data-srcset="https://images.olx.com.pk/thumbnails/188873184-240x180.webp"
-                      srcset="
-                        https://images.olx.com.pk/thumbnails/188873184-240x180.webp
-                      "
-                    />
-                    <img
-                      role="presentation"
-                      alt="Apple iPhone 12 mini"
-                      title="Apple iPhone 12 mini"
-                      aria-label="Cover photo"
-                      data-src="https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg"
-                      class="list-img lazy loaded"
-                      src="https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg"
-                      data-was-processed="true"
-                    />
-                  </picture>
+                  <img
+                    role="presentation"
+                    alt="Apple iPhone 12 mini"
+                    title="Apple iPhone 12 mini"
+                    aria-label="Cover photo"
+                    data-src="https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg"
+                    class="list-img lazy loaded"
+                    src="https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg"
+                    data-was-processed="true"
+                  />
                 </div>
                 <div class="list-card-info list-featured">
                   <span class="list-featured-tag">FEATURED</span>
@@ -932,16 +911,9 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="list-card-container">
+              <a href="#" class="list-card">
                 <div class="list-img-container">
-                  <picture class="list-picture"
-                    ><noscript>
-                      <source type="image/webp"
-                      srcSet=https://images.olx.com.pk/thumbnails/188873184-240x180.webp
-                      /> <img role="presentation"
-                      src=https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg
-                      class="list-img" aria-label="Fallback listing photo" />
-                    </noscript>
+                  <picture class="list-picture">
                     <source
                       type="image/webp"
                       data-srcset="https://images.olx.com.pk/thumbnails/188873184-240x180.webp"
@@ -976,16 +948,9 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="list-card-container">
+              <a href="#" class="list-card">
                 <div class="list-img-container">
-                  <picture class="list-picture"
-                    ><noscript>
-                      <source type="image/webp"
-                      srcSet=https://images.olx.com.pk/thumbnails/188873184-240x180.webp
-                      /> <img role="presentation"
-                      src=https://images.olx.com.pk/thumbnails/188873184-240x180.jpeg
-                      class="list-img" aria-label="Fallback listing photo" />
-                    </noscript>
+                  <picture class="list-picture">
                     <source
                       type="image/webp"
                       data-srcset="https://images.olx.com.pk/thumbnails/188873184-240x180.webp"
